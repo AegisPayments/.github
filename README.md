@@ -19,7 +19,7 @@ Please explore the protocol through these links:
 
 ### 1. The Singleton Ledger (Smart Contracts)
 
-🔗 **[Go to aegispay-contracts repo](https://github.com/AegisPayments/aegispay-contracts)**
+🔗 **[Go to aegispay-contracts repo](https://github.com/AegisPayments/aegis-contracts)**
 
 - **What it is:** The on-chain settlement layer built with Foundry.
 - Has a 3-tier balance system (`userFreeBalances`, `authorizedHolds`, `merchantSettledBalances`).
@@ -35,7 +35,7 @@ Please explore the protocol through these links:
 
 ### 3. The Interactive Demo (Frontend)
 
-🔗 **[Go to aegisweb repo](https://github.com/AegisPayments/aegisweb)**
+🔗 **[Go to aegisweb repo](https://github.com/AegisPayments/aegis-web)**
 
 - **What it is:** A Next.js 16 application demonstrating the "Auth & Capture" flow.
 - Features a split-screen "Simulation Mode" showing the clean Web2 mobile UX alongside the simulated Chainlink CRE terminal execution.
