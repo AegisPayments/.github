@@ -4,15 +4,17 @@
 _Bringing Visa-style "Auth & Capture" to Smart Contracts via Chainlink CRE._
 
 [![Website](https://img.shields.io/badge/Live_Demo-aegispay.xyz-blue)](https://aegispay.xyz)
-[![Video Pitch](https://img.shields.io/badge/Pitch-Watch_Video-red)](INSERT_YOUTUBE_LINK_HERE)
+[![Video Pitch](https://img.shields.io/badge/Pitch-Watch_Video-red)](https://youtu.be/5Pnyc_w6xvY)
 
-## ⚠️ Repositories 
+## ⚠️ Repositories
 
 AegisPay is a multi-layered decentralized payment protocol. We have two main repositories:
- - [aegispay-contracts](#1-the-singleton-ledger-smart-contracts)
+
+- [aegispay-contracts](#1-the-singleton-ledger-smart-contracts)
 - [aegis-cre](#2-the-ai-risk-engine-chainlink-cre)
 
 And a frontend demo:
+
 - [aegisweb](#3-the-interactive-demo-frontend)
 
 Please explore the protocol through these links:
@@ -52,6 +54,6 @@ Web3 payments fail real-world commerce due to three limitations:
 
 ## The Aegis Solution
 
-We translated TradFi's proven "Auth & Capture" architecture to Web3. Users deposit once into a secure ledger. This acts as an completely liquid Web3 checking account where funds can be withdrawn at any time. The merchant only gets access to the temporary `authorizedHolds`. 
+We translated TradFi's proven "Auth & Capture" architecture to Web3. Users deposit once into a secure ledger. This acts as an completely liquid Web3 checking account where funds can be withdrawn at any time. The merchant only gets access to the temporary `authorizedHolds`.
 
 Merchants request specific, time-limited authorizations. When prices dynamically change, merchants request a `secureIncrement`. This request routes through our **Chainlink CRE AI Risk Engine**, which evaluates the merchant's risk profile and the user's history before approving the on-chain increment.
